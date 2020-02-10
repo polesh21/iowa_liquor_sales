@@ -39,15 +39,15 @@ Project consists of 3 parts:
 
 Data Analysis is the main part of the project and includes analysis of:
 
-1) Totals
-   Sold liters amount, broken by years, months and days of a week
-2) Cities
-   Top cities based on total_volume_sold_liters metric
-3) Stores
-   Stores by total_sale_dollars
-4) Categories
-   Top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
-5) Vendors
-   Information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
-6) Products
-   Top products by total_volume_sold_liters metrics
+1) Totals: 
+   sold liters amount, broken by years, months and days of a week
+2) Cities: 
+   top cities based on total_volume_sold_liters metric
+3) Stores: 
+   stores by total_sale_dollars
+4) Categories: 
+   top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
+5) Vendors: 
+   information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
+6) Products: 
+   top products by total_volume_sold_liters metrics
