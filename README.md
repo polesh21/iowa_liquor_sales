@@ -31,3 +31,17 @@ This dataset has the following 24 columns:
 | Sale (Dollars)        | sale_dollars        | number        | Total cost of liquor order (number of bottles multiplied by the state bottle retail)                                                                                                                                                                       |   |
 | Volume Sold (Liters)  | sale_liters         | number        | Total volume of liquor ordered in liters. (i.e. (Bottle Volume (ml) x Bottles Sold)/1,000)                                                                                                                                                                 |   |
 | Volume Sold (Gallons) | sale_gallons        | number        | Total volume of liquor ordered in gallons. (i.e. (Bottle Volume (ml) x Bottles Sold)/3785.411784)                                                                                                                                                          |   |
+
+Project consists of 3 parts:
+
+Connecting to Google Bigquery public data "iows_liquor_sales"
+Data preparation
+Data Analysis
+Data Analysis is the main part of the project and includes analysis of:
+
+Totals: sold liters amount, broken by years, months and days of a week
+Cities: top cities based on total_volume_sold_liters metric
+Stores: stores by total_sale_dollars
+Categories: top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
+Vendors: information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
+Products: top products by total_volume_sold_liters metrics
