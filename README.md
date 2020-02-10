@@ -1,4 +1,5 @@
-# iowa_liquor_sales
+# Iowa_liquor_sales exploratory data analysis
+
 
 This dataset contains the spirits purchase information of Iowa Class “E” liquor licensees by product and date of purchase from January 1, 2012 to current. The dataset can be used to analyze total spirits sales in Iowa of individual products at the store level.
 
@@ -29,3 +30,24 @@ This dataset has the following 24 columns:
 | Sale (Dollars)        | sale_dollars        | number        | Total cost of liquor order (number of bottles multiplied by the state bottle retail)                                                                                                                                                                       |
 | Volume Sold (Liters)  | sale_liters         | number        | Total volume of liquor ordered in liters. (i.e. (Bottle Volume (ml) x Bottles Sold)/1,000)                                                                                                                                                                 |
 | Volume Sold (Gallons) | sale_gallons        | number        | Total volume of liquor ordered in gallons. (i.e. (Bottle Volume (ml) x Bottles Sold)/3785.411784)                                                                                                                                                          |
+
+Project consists of 3 parts:
+
+1. Connecting to Google Bigquery public data "iows_liquor_sales"
+2. Data preparation
+3. Data Analysis
+
+Data Analysis is the main part of the project and includes analysis of:
+
+1) Totals
+   Sold liters amount, broken by years, months and days of a week
+2) Cities
+   Top cities based on total_volume_sold_liters metric
+3) Stores
+   Stores by total_sale_dollars
+4) Categories
+   Top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
+5) Vendors
+   Information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
+6) Products
+   Top products by total_volume_sold_liters metrics
