@@ -34,14 +34,15 @@ This dataset has the following 24 columns:
 
 Project consists of 3 parts:
 
-Connecting to Google Bigquery public data "iows_liquor_sales"
-Data preparation
-Data Analysis
+1. Connecting to Google Bigquery public data "iows_liquor_sales"
+2. Data preparation
+3. Data Analysis
+
 Data Analysis is the main part of the project and includes analysis of:
 
-Totals: sold liters amount, broken by years, months and days of a week
-Cities: top cities based on total_volume_sold_liters metric
-Stores: stores by total_sale_dollars
-Categories: top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
-Vendors: information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
-Products: top products by total_volume_sold_liters metrics
+1) Totals: sold liters amount, broken by years, months and days of a week
+2) Cities: top cities based on total_volume_sold_liters metric
+3) Stores: stores by total_sale_dollars
+4) Categories: top categories based on total_sale_dollars and total_volume_sold_liters metrics + aggregated categories
+5) Vendors: information about vendors based on total_sale_dollars and total_volume_sold_liters metrics + most popular bottle_volume for every vendor
+6) Products: top products by total_volume_sold_liters metrics
